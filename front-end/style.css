@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d5e0e2;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  background-color: white;
+  border-radius: 15px;
+  padding: 40px;
+}
+
+.form-field {
+  margin-bottom: 40px;
+}
+
+.form-field input {
+  display: block;
+  width: 500px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding: 15px;
+}
+
+.form-field input[type="submit"] {
+  color: white;
+  background-color: #00d687;
+  border-radius: 4px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+
+.form-field .error {
+  color: red;
+}
+
+.form-field input[type="submit"]:active {
+  background-color: #0b9a65;
+}
+
+#rules {
+  width: auto;
+}

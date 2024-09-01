@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prosta aplikacja</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main id="form-container">
+      <h1>Cześć 👋</h1>
+      <form id="registration-form">
+        <div class="form-field">
+          <label for="e-mail">Adres e-mail</label>
+          <input type="email" id="email" autocomplete="off" />
+        </div>
+        <div class="form-field">
+          <label for="password">Hasło</label>
+          <input type="password" id="password" />
+        </div>
+        <div class="form-field">
+          <label for="repeat-password">Powtórz hasło</label>
+          <input type="password" id="repeat-password" />
+        </div>
+        <!-- <div class="form-field">
+          <label for="rules">Akceptuję regulamin</label>
+          <input type="checkbox" id="rules" />
+        </div> -->
+        <div class="form-field">
+          <input type="submit" value="Zarejestruj!" />
+        </div>
+      </form>
+    </main>
+
+    <main id="welcome-screen" hidden>
+      <h1>Rejestracja zakończona!</h1>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
